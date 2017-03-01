@@ -10,3 +10,6 @@ search_file = sys.argv[1]
 for line in open(search_file, 'r'):
     if re.search(search_term, line):
         print 'jinja file {} modified. AMP template should modified as well'.format(search_file)
+
+
+print "Fin"
